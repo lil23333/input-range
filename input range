@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<title>just learning</title>
+<link rel = 'stylesheet' href="index11.css">
+</head>
+<body>
+   <input id="elem" data-min="5" data-max="10">
+    <script>
+document.querySelector('#elem').onblur = function () {
+
+ if (String(this.value.length = elem.getAttribute('data-min')) < 5 || 
+String(this.value.length = elem.getAttribute('data-max')>= 10)) {
+              alert('wrong!')
+       }
+}
+</script>   
+    
+    
+</body>
+</html>
